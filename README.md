@@ -1,4 +1,4 @@
-# perturbation-filter
+# Interpretable Stability Bounds for Spectral Graph Filters
 
 ## Install
 
@@ -11,15 +11,15 @@ Pygsp needs to be install from github because the pip install version generates 
 
 Add repo to pythonpath `export PYTHONPATH=$PYTHONPATH:$(pwd)`
 
-## Recreate experiments
-
-Generate graphs, clean signals and noisy signals `bash scripts_bash/data.sh`
-
-
-## How to use python scripts for other experiments
-
-## Generate plots used in the paper
-
-## Contact
-
 ## Cite 
+
+```
+@inproceedings{kenlay2021interpretable,
+  title={Interpretable stability bounds for spectral graph filters},
+  author={Kenlay, Henry and Thanou, Dorina and Dong, Xiaowen},
+  booktitle={International Conference on Machine Learning},
+  pages={5388--5397},
+  year={2021},
+  organization={PMLR}
+}
+```
